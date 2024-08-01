@@ -1,0 +1,75 @@
+{
+  "name": "Arastoo Zibaeirad",
+  "email": ["azibaeir@uncc.edu", "aras2zibaeirad@gmail.com"],
+  "website": "https://charlotte.edu/azibaeir/",
+  "address": "Charlotte, NC, USA",
+  "research_interests": "I focus on the intersection of machine learning and cybersecurity, with a particular emphasis on adversarial machine learning, the robustness of machine learning models, and the trustworthiness and interpretability of models in adversarial settings. I often use Python to build tools that help with these topics because I am comfortable with it and find it useful for security tasks.",
+  "keywords": ["Trustworthy AI", "Interpretability of ML Models", "Adversarial Machine Learning", "Generative Adversarial Networks (GANs)", "Adversarial Robustness", "Network and Security"],
+  "education": [
+    {
+      "degree": "Doctor of Philosophy in Computer Science",
+      "institution": "University of North Carolina at Charlotte (UNCC)",
+      "date": "08/2022 - present"
+    },
+    {
+      "degree": "Bachelor of Science in Electrical Engineering",
+      "institution": "Iran University of Science and Technology (IUST)",
+      "date": "11/2014 - 04/2019"
+    }
+  ],
+  "publications": [
+    {
+      "title": "A Survey of Cyber, Cyber-Physical, and Coordinated Attacks and Detection Methods in Smart Grids",
+      "description": "This comprehensive paper explores a wide range of attacks on smart grids, from historical incidents to future threats. It delves into various protection methods, including game theory, graph theory, blockchain technologies, and a spectrum of machine learning techniques such as supervised, unsupervised, semi-supervised, ensemble learning, and reinforcement learning. The focus is primarily on adversarial attacks and corresponding defensive strategies, emphasizing the dynamic and evolving nature of cybersecurity within the realm of energy systems."
+    },
+    {
+      "title": "Bypassing the Black-box DDoS Detection Systems using Generative Adversarial Networks (GANs)",
+      "description": "This study explores the use of GANs to perform black-box attacks with zero knowledge to evade Distributed Denial of Service (DDoS) detection systems."
+    }
+  ],
+  "technical_skills": {
+    "scripting": ["Python (Django)", "Deep Learning", "ML (Tensorflow, Keras)", "Matlab"],
+    "databases": ["NoSQL (Elasticsearch)", "SQL (MySQL)"],
+    "query": ["SQL", "DSL", "EQL"],
+    "network": ["Routing", "Switching", "Programming"],
+    "others": ["Linux", "GIT", "Docker"]
+  },
+  "professional_experiences": [
+    {
+      "position": "Research/Teacher Assistant",
+      "institution": "University of North Carolina at Charlotte",
+      "date": "08/2022 – Present",
+      "responsibilities": [
+        "Researching on Adversarial Machine Learning, used Generative Adversarial Networks (GANs)",
+        "Assisted in 'IT Infrastructure and Security' and 'Operating Systems'"
+      ]
+    },
+    {
+      "position": "Software Developer",
+      "institution": "Golrang System, Tehran, Iran",
+      "date": "04/2022 – 07/2022",
+      "responsibilities": [
+        "Developed an automated system using PingCastle to detect folder sharing, extracted clients from Active Directory, and sent targeted emails to close shared folders.",
+        "Created a program to address device vulnerabilities by identifying new CVEs, collaborated with the monitoring team using NMAP for device details, and updated the OpenCVE API database to bolster network security."
+      ]
+    },
+    {
+      "position": "Software Developer",
+      "institution": "Andisheh Negar Pars, Tehran, Iran",
+      "date": "01/2021 – 04/2022",
+      "responsibilities": [
+        "Developed an application designed to correlate network logs, transmit these logs to a database (Elasticsearch), and facilitate log management planning. This tool was created to identify the sequence of logs and perform queries on Elasticsearch using various indices, addressing common issues faced by Network and Security Operation Centers (NOC and SOC). Subsequently, I developed the back-end of the application using Python Django and created APIs (Application Programming Interfaces) for communication with other network modules.",
+        "Parsed log patterns with Logstash, tuned ELK performance, and designed a centralized logging ELK cluster for the application.",
+        "Managed an 18-node Elasticsearch setup using docker-compose, including master, data, coordinating, and ingest nodes; addressed indexing issues and customized document mapping."
+      ]
+    }
+  ],
+  "courses_and_certifications": [
+    "HCNA (Huawei Certified Network Associate) - Certified",
+    "CCNA (Cisco Certified Network Associate) - local certificate",
+    "CCNP (Cisco Certified Network Professional) - Self-study",
+    "CCIE (Cisco Certified Internetwork Expert) - Self-study",
+    "CompTIA Network+ (Computing Technology Industry Association Network Plus) - local certificate",
+    "Linux LPIC-1 (Linux Professional Institute Certification Level 1) - local certificate"
+  ]
+}

@@ -1,0 +1,116 @@
+---
+layout: default
+title: "About"
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if site.profile %}
+      <div class="profile float-{% if site.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if site.profile.image %}
+          {% assign profile_image_path = site.profile.image | prepend: 'assets/img/' %}
+          {% if site.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Profile Picture" cache_bust=true %}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- CV Download Link -->
+    <div>
+      <h2></h2>
+      <a href="{{ '/assets/pdf/FK_CV.pdf' | relative_url }}" download style="text-decoration: underline;">
+        Curriculum Vitae
+      </a>
+    </div>
+    <br>
+
+    <!-- Research Interests -->
+    <div>
+      <h2>Research Interests</h2>
+      <hr>
+      <p>Farnoosh's research interests lie in the integration of artificial intelligence (AI) and machine learning (ML) techniques with biological sciences, particularly in computational biology and genomics for cancer therapeutics. She focuses on developing AI-driven methods for monitoring human movement disorders, biomarker discovery, and the application of tensor decomposition methods to multi-omics data.</p>
+    </div>
+  
+
+    <!-- Selected Publications -->
+    <div>
+    <br>
+      <h2>Selected Publications</h2>
+      <hr>
+      <div style="clear: both; margin-bottom: 20px;">
+        <img src="{{ '/assets/img/image3.png' | relative_url }}" alt="Publication 3" style="width: 150px; height: auto; float: left; margin-right: 20px;">
+        <p><strong>Koleini, F.</strong>, Gemperline, P. and Tabrizi, N. (2023, May). <a href="https://www.researchgate.net/profile/Farnoosh-Koleini/publication/370962946_Biomarker_discovery_in_multi-omics_datasets_using_tensor_decompositions_A_comprehensive_review/links/646cc11d8db9113c86b2b9b8/Biomarker-discovery-in-multi-omics-datasets-using-tensor-decompositions-A-comprehensive-review.pdf" target="_blank">Biomarker discovery in multi-omics datasets using tensor decompositions; A comprehensive review</a>. In Proceedings of International Conference on Bioinformatics and Computational Biology (Vol. 92, pp. 11-24).</p>
+      </div>
+      <br>
+      <div style="clear: both; margin-bottom: 20px;">
+        <img src="{{ '/assets/img/image2.png' | relative_url }}" alt="Publication 2" style="width: 150px; height: auto; float: left; margin-right: 20px;">
+        <p><strong>Koleini, F.</strong>, Hugelier, S., Lakeh, M.A., Abdollahi, H., Camacho, J. and Gemperline, P.J. (2023). <a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/cem.3514" target="_blank">On the complementary nature of ANOVA simultaneous component analysis (ASCA+) and Tucker3 tensor decompositions on designed multi-way datasets</a>. <em>Journal of Chemometrics</em>, 37(11), p.e3514.</p>
+      </div>
+      <br>
+      <div style="margin-bottom: 20px;">
+        <img src="{{ '/assets/img/image1.png' | relative_url }}" alt="Publication 1" style="width: 150px; height: auto; float: left; margin-right: 20px;">
+        <p><strong>Koleini, F.</strong>, Balsini, P. and Parastar, H. (2020). <a href="https://www.tandfonline.com/doi/full/10.1080/03067319.2020.1745198" target="_blank">Evaluation of partial least-squares regression with multivariate analytical figures of merit for determination of 10 pesticides in milk</a>. <em>International Journal of Environmental Analytical Chemistry</em>, 102(8), pp.1900-1910.</p>
+      </div>
+  
+
+    </div>
+
+    <!-- Talks -->
+    <div>
+    <br>
+      <h2>Talks</h2>
+      <hr>
+      <div style="clear: both; margin-bottom: 20px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FHIFzdpSTh4" title="Talk Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <br>
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if site.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter.enabled and site.footer_fixed %}
+      {% include scripts/newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>

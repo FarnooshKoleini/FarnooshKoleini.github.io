@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "name": "Arastoo Zibaeirad",
+    "label": "Researcher and Developer",
+    "image": "",
+    "email": ["azibaeir@uncc.edu", "aras2zibaeirad@gmail.com"],
+    "phone": "",
+    "url": "https://charlotte.edu/azibaeir/",
+    "summary": "I focus on the intersection of machine learning and cybersecurity, with a particular emphasis on adversarial machine learning, the robustness of machine learning models, and the trustworthiness and interpretability of models in adversarial settings.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Charlotte",
+      "countryCode": "US",
+      "region": "North Carolina"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "name": "University of North Carolina at Charlotte",
+      "position": "Research/Teacher Assistant",
+      "url": "",
+      "startDate": "2022-08-01",
+      "endDate": "Present",
+      "summary": "Researching on Adversarial Machine Learning, used Generative Adversarial Networks (GANs). Assisted in 'IT Infrastructure and Security' and 'Operating Systems'.",
+      "highlights": []
+    },
+    {
+      "name": "Golrang System",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "2022-04-01",
+      "endDate": "2022-07-01",
+      "summary": "Developed an automated system using PingCastle to detect folder sharing, extracted clients from Active Directory, and sent targeted emails to close shared folders. Created a program to address device vulnerabilities by identifying new CVEs, collaborated with the monitoring team using NMAP for device details, and updated the OpenCVE API database to bolster network security.",
+      "highlights": []
+    },
+    {
+      "name": "Andisheh Negar Pars",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2022-04-01",
+      "summary": "Developed an application designed to correlate network logs, transmit these logs to a database (Elasticsearch), and facilitate log management planning. Managed an 18-node Elasticsearch setup using docker-compose, including master, data, coordinating, and ingest nodes; addressed indexing issues and customized document mapping.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of North Carolina at Charlotte (UNCC)",
+      "location": "Charlotte, NC, USA",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2022-08-01",
+      "endDate": "Present",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Iran University of Science and Technology (IUST)",
+      "location": "Tehran, Iran",
+      "url": "",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2014-11-01",
+      "endDate": "2019-04-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "HCNA (Huawei Certified Network Associate)",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    },
+    {
+      "name": "CCNA (Cisco Certified Network Associate)",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    },
+    {
+      "name": "CCNP (Cisco Certified Network Professional)",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    },
+    {
+      "name": "CCIE (Cisco Certified Internetwork Expert)",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    },
+    {
+      "name": "CompTIA Network+ (Computing Technology Industry Association Network Plus)",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    },
+    {
+      "name": "Linux LPIC-1 (Linux Professional Institute Certification Level 1)",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "A Survey of Cyber, Cyber-Physical, and Coordinated Attacks and Detection Methods in Smart Grids",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": "This comprehensive paper explores a wide range of attacks on smart grids, from historical incidents to future threats. It delves into various protection methods, including game theory, graph theory, blockchain technologies, and a spectrum of machine learning techniques such as supervised, unsupervised, semi-supervised, ensemble learning, and reinforcement learning. The focus is primarily on adversarial attacks and corresponding defensive strategies, emphasizing the dynamic and evolving nature of cybersecurity within the realm of energy systems."
+    },
+    {
+      "name": "Bypassing the Black-box DDoS Detection Systems using Generative Adversarial Networks (GANs)",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": "This study explores the use of GANs to perform black-box attacks with zero knowledge to evade Distributed Denial of Service (DDoS) detection systems."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Scripting",
+      "level": "",
+      "icon": "",
+      "keywords": ["Python (Django)", "Deep Learning", "ML (Tensorflow, Keras)", "Matlab"]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "icon": "",
+      "keywords": ["NoSQL (Elasticsearch)", "SQL (MySQL)"]
+    },
+    {
+      "name": "Query",
+      "level": "",
+      "icon": "",
+      "keywords": ["SQL", "DSL", "EQL"]
+    },
+    {
+      "name": "Network",
+      "level": "",
+      "icon": "",
+      "keywords": ["Routing", "Switching", "Programming"]
+    },
+    {
+      "name": "Others",
+      "level": "",
+      "icon": "",
+      "keywords": ["Linux", "GIT", "Docker"]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Machine Learning and Cybersecurity",
+      "icon": "",
+      "keywords": ["Trustworthy AI", "Interpretability of ML Models", "Adversarial Machine Learning", "Generative Adversarial Networks (GANs)", "Adversarial Robustness", "Network and Security"]
+    }
+  ],
+  "references": [],
+  "projects": []
+}
