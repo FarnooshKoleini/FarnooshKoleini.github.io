@@ -30,6 +30,7 @@ Farnoosh is a computer science researcher in the Department of Computer Science 
 \\
 \\
 \\
+\\
 Education:
 - M.Sc. in Chemistry & Computer Science (Dual Degree), East Carolina University
 - B.Sc. in Chemistry, Sharif University of Technology
