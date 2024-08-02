@@ -19,14 +19,14 @@ title: "About"
     {% if site.profile %}
       <div class="profile float-{% if site.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if site.profile.image %}
-          {% assign profile_image_path = site.profile.image | prepend: 'assets/img' %}
+          {% assign profile_image_path = site.url | append: site.baseurl | append: '/assets/img/' | append: site.profile.image %}
           {% if site.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Profile Picture" cache_bust=true %}
+          <img src="{{ profile_image_path }}" class="{{ profile_image_class }}" alt="Profile Picture" sizes="{{ sizes }}">
         {% endif %}
       </div>
     {% endif %}
