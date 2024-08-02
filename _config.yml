@@ -645,7 +645,7 @@ jsonresume:
   - interests
 
 profile:
-  image: prof_pic_color.png
+  image: assets/img/prof_pic_color.png
   image_circular: true  # set to false if you do not want the image to be circular
   align: left  # set to 'right' if you want the image aligned to the right
   # more_info: "Your additional info here if any"  # additional info to display under the profile image
