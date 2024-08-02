@@ -29,6 +29,7 @@ social: true # includes social icons at the bottom of the page
 Farnoosh is a computer science researcher in the Department of Computer Science at UNC Charlotte. She is exploring how AI techniques can revolutionize robotics and computer vision by enabling the monitoring of human movement disorders without the need for motion capture laboratories (MoCap). Before joining to UNC Charlote, Farnoosh conducted graduate research with Dr. Paul Gemperline as part of her masters program at East Carolina University, where she employed AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with cancer susceptibility in humans. In her free time, Farnoosh enjoys hiking, tennis, photography, and spending time with her friends.
 \\
 \\
+\\
 Education:
 - M.Sc. in Chemistry & Computer Science (Dual Degree), East Carolina University
 - B.Sc. in Chemistry, Sharif University of Technology
