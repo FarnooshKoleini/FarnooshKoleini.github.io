@@ -15,6 +15,6 @@ nav_order: 2
 
 <div class="publications">
 
-<!-- Removed unsupported bibliography tag -->
+{% bibliography %}
 
 </div>
