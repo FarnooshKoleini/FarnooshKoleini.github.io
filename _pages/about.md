@@ -32,7 +32,6 @@ Before joining to UNC Charlote, Farnoosh conducted graduate research with Dr. Pa
 \\
 \\
 \\
-\\
 Education:
 - M.Sc. in Chemistry & Computer Science (Dual Degree), East Carolina University
 - B.Sc. in Chemistry, Sharif University of Technology
