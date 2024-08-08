@@ -28,7 +28,7 @@ social: true # includes social icons at the bottom of the page
 
 Hey there, welcome to my homepage!! I am a computer science researcher in the Department of Computer Science at UNC Charlotte. I am exploring how AI techniques can revolutionize robotics and computer vision by enabling the monitoring of human movement disorders without the need for motion capture laboratories (MoCap). 
 \\
-Before joining to UNC Charlote, I conducted graduate research with Dr. Paul Gemperline as part of my masters program at East Carolina University. There, I employed AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with cancer susceptibility in humans. In my free time, I enjoy hiking, tennis, photography, and spending time with her friends.
+Before joining to UNC Charlote, I conducted graduate research with Dr. Paul Gemperline as part of my masters program at East Carolina University. There, I used AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with cancer susceptibility in humans. In my free time, I enjoy hiking, tennis, photography, and spending time with my friends.
 \\
 \\
 \\
