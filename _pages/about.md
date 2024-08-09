@@ -27,7 +27,9 @@ social: true # includes social icons at the bottom of the page
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;https://fontawesome.com/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
 Hey there, welcome to my homepage!! I am a computer science researcher in the Department of Computer Science at UNC Charlotte. I am exploring how AI techniques can revolutionize robotics and computer vision by enabling the monitoring of human movement disorders without the need for motion capture laboratories (MoCap). 
-\\\
+
+\\
+
 I received my double Masters’s degrees in computer science and chemistry from East Carolina University University (ECU). During my time at ECU, I had the pleasure to work with [Dr. Paul Gemperline](https://chemistry.ecu.edu/faculty-staff/gemperlinep/) and [Dr. Nasseh Tabrizi](https://cet.ecu.edu/csci/about-us/faculty-staff/tabrizi/) on using AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with cancer susceptibility in humans. In my free time, I enjoy hiking, tennis, photography, and spending time with my friends.
 \\
 \\
