@@ -3,6 +3,28 @@ layout: default
 title: "About"
 ---
 
+<div class="hero-section position-relative overflow-hidden p-5 text-center bg-light">
+  <div class="col-md-8 mx-auto my-5">
+    <h1 class="display-3 fw-bold">{{ page.title }}</h1>
+    <p class="lead fw-normal">{{ page.subtitle }}</p>
+    <a href="#contact" class="btn btn-primary btn-lg px-4 me-md-2">Get in Touch</a>
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6" data-aos="fade-right">
+      <img src="{{ site.baseurl }}/assets/images/profile.jpg" class="img-fluid rounded shadow" alt="Profile Image">
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <h1 class="display-4">{{ page.title }}</h1>
+      <p class="lead">{{ page.subtitle }}</p>
+      {{ content }}
+    </div>
+  </div>
+</div>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -102,5 +124,56 @@ title: "About"
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+
+    <!-- Add a testimonials section -->
+    <section class="testimonials py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">What People Say</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4" data-aos="zoom-in">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <p class="card-text">"Amazing work! Exceeded all expectations."</p>
+                <div class="d-flex align-items-center mt-3">
+                  <img src="{{ site.baseurl }}/assets/images/testimonial1.jpg" width="50" height="50" class="rounded-circle me-3">
+                  <div>
+                    <h5 class="mb-0">Jane Doe</h5>
+                    <small class="text-muted">CEO, Company Inc</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more testimonial cards -->
+        </div>
+      </div>
+    </section>
   </article>
 </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out'
+  });
+</script>
+
+<!-- Add in header -->
+<button id="darkModeToggle" class="btn btn-sm btn-outline-secondary">
+  <i class="fas fa-moon"></i>
+</button>
+
+<!-- Add before closing </body> tag -->
+<script>
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const icon = darkModeToggle.querySelector('i');
+    icon.classList.toggle('fa-moon');
+    icon.classList.toggle('fa-sun');
+  });
+</script>
+
