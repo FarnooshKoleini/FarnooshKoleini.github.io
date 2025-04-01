@@ -31,7 +31,7 @@ I received my double Masters’s degrees in computer science and chemistry from 
 
 <p>&nbsp;</p>
 
-### Research Interests
+<h4 style="margin-bottom: 0.5em;">Research Interests</h4>
 
 AI4Health, Computer Vision, CompBio
 
