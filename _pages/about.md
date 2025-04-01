@@ -28,7 +28,9 @@ social: true # includes social icons at the bottom of the page
 
 Hey there, welcome to my homepage!! I am a PhD student in Computer Science at UNC Charlotte. I am exploring how AI techniques can revolutionize robotics and computer vision by enabling the monitoring of human movement disorders without the need for motion capture laboratories (MoCap).
 I received my double Masters’s degrees in computer science and chemistry from East Carolina University University. During my time at ECU, I had the pleasure of working with [Dr. Paul Gemperline](https://chemistry.ecu.edu/faculty-staff/gemperlinep/) and [Dr. Nasseh Tabrizi](https://cet.ecu.edu/csci/about-us/faculty-staff/tabrizi/) on research focusing on AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with colon cancer susceptibility. In my free time, I enjoy hiking, tennis, photography, and spending time with my family and friends.
-<p>
+//
+//
+
 - Ph.D. in Computer Science, University of North Carolina at Charlotte
 - M.Sc. in Chemistry & Computer Science (Dual Degree), East Carolina University
 - B.Sc. in Chemistry, Sharif University of Technology
