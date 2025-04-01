@@ -30,7 +30,6 @@ Hey there, welcome to my homepage!! I am a PhD student in Computer Science at UN
 I received my double Masters’s degrees in computer science and chemistry from East Carolina University University. During my time at ECU, I had the pleasure of working with [Dr. Paul Gemperline](https://chemistry.ecu.edu/faculty-staff/gemperlinep/) and [Dr. Nasseh Tabrizi](https://cet.ecu.edu/csci/about-us/faculty-staff/tabrizi/) on research focusing on AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with colon cancer susceptibility. In my free time, I enjoy hiking, tennis, photography, and spending time with my family and friends.
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 ### Research Interests
 
