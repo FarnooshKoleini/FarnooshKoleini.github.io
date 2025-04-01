@@ -32,6 +32,7 @@ I received my double Masters’s degrees in computer science and chemistry from 
 //
 //
 //
+//
 
 - Ph.D. in Computer Science, University of North Carolina at Charlotte
 - M.Sc. in Chemistry & Computer Science (Dual Degree), East Carolina University
