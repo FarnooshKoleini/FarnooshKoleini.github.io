@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -13,7 +13,7 @@ profile:
 #    <p>123 your address street</p>
 #    <p>Your City, State 12345</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -26,13 +26,18 @@ social: true # includes social icons at the bottom of the page
 [//]: # ()
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;https://fontawesome.com/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
-Hey there, welcome to my homepage!! I am a PhD student in Computer Science at UNC Charlotte. I am exploring how AI techniques can revolutionize robotics and computer vision by enabling the monitoring of human movement disorders without the need for motion capture laboratories (MoCap).  
+Hey there, welcome to my homepage!! I am a PhD student in Computer Science at UNC Charlotte, working under the supervision of [Dr. Pu Wang](https://cci.charlotte.edu/directory/pu-wang/). I am exploring how AI techniques can revolutionize robotics and computer vision by enabling the monitoring of human movement disorders without the need for motion capture laboratories (MoCap).  
 I received my double Masters’s degrees in computer science and chemistry from East Carolina University University. During my time at ECU, I had the pleasure of working with [Dr. Paul Gemperline](https://chemistry.ecu.edu/faculty-staff/gemperlinep/) and [Dr. Nasseh Tabrizi](https://cet.ecu.edu/csci/about-us/faculty-staff/tabrizi/) on research focusing on AI, machine learning techniques, and tensor decomposition methods to identify genes significantly associated with colon cancer susceptibility. In my free time, I enjoy hiking, tennis, photography, and spending time with my family and friends.
 
 <p>&nbsp;</p>
 
-<h4 style="margin-bottom: 0.5em;">Research Interests</h4>
-
-AI4Health, Computer Vision, CompBio
+<h4 style="margin-bottom: 0.75em; font-weight: 700; letter-spacing: -0.02em;">Research Interests</h4>
+<div class="research-tags">
+  <span class="research-tag">AI4Health</span>
+  <span class="research-tag">Computer Vision</span>
+  <span class="research-tag">CompBio</span>
+  <span class="research-tag">Robotics</span>
+  <span class="research-tag">Human Movement Analysis</span>
+</div>
 
 

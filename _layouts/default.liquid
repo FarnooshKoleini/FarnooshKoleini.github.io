@@ -17,6 +17,25 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Global background video -->
+    <div class="site-bg-video" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="metadata">
+        <source src="{{ '/biopose_bones_overlay_arm_corrected_h264.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/biopose_bones_overlay_arm_corrected.mp4' | relative_url }}" type="video/mp4">
+      </video>
+    </div>
+    <!-- Aurora animated background -->
+    <div class="aurora-bg" aria-hidden="true">
+      <div class="aurora-blob b1"></div>
+      <div class="aurora-blob b2"></div>
+      <div class="aurora-blob b3"></div>
+      <div class="aurora-blob b4"></div>
+      <div class="aurora-blob b5"></div>
+    </div>
+    <!-- Tron perspective grid floor -->
+    <div class="tron-grid" aria-hidden="true"><div class="tron-grid__plane"></div></div>
+    <!-- CRT/hologram scanlines -->
+    <div class="scanlines" aria-hidden="true"></div>
     <!-- Header -->
     {% include header.liquid %}
 
@@ -73,5 +92,6 @@
     <script src="{{ site.baseurl }}/assets/js/jekyll_tabs.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/back_to_top.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/search.min.js"></script>
+    <script defer src="{{ '/assets/js/fancy-3d.js' | relative_url }}"></script>
   </body>
 </html>
